@@ -1,0 +1,67 @@
+@font-face {
+    font-family: 'Keep Calm';
+    font-style: normal;
+    font-weight: 500;
+    src: local('Keep Calm'), url('https://fonts.cdnfonts.com/s/15151/KeepCalm-Medium.woff') format('woff');
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background: #00ff00;
+}
+
+.container_score {
+    position: absolute;
+    width: 1920px;
+    height: 237px;
+    background-image: url('https://media.discordapp.net/attachments/813284164018503690/852964034382790686/ballafelloverlay_scoreboard.jpg');
+    font-family: "Keep Calm";
+    font-size: 30px;
+}
+
+.t1-name {
+    position: absolute;
+    width: 513px;
+    bottom: 116px;
+    left: 328px;
+    line-height: 100%;
+    text-align: bottom;
+    text-align: center;
+    color: red;
+}
+
+.t2-name {
+    position: absolute;
+    width: 513px;
+    bottom: 116px;
+    left: 1080px;
+    line-height: 100%;
+    text-align: bottom;
+    text-align: center;
+    color: blue;
+}
+
+.t1-score {
+    position: absolute;
+    width: 55px;
+    ;
+    bottom: 120px;
+    left: 266px;
+    line-height: 100%;
+    text-align: bottom;
+    text-align: center;
+    color: red;
+}
+
+.t2-score {
+    position: absolute;
+    width: 55px;
+    ;
+    bottom: 120px;
+    left: 1600px;
+    line-height: 100%;
+    text-align: bottom;
+    text-align: center;
+    color: blue;
+}
