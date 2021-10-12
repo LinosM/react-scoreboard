@@ -11,6 +11,7 @@ function Scoreboard() {
   })
 
   useEffect(() => {
+    // Pulls from api ever 3 seconds, not very optimal I know :)
     setInterval(function () {
       API.getScore()
         .then(res => {
